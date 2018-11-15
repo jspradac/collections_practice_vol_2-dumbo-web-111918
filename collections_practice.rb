@@ -42,6 +42,7 @@ def merge_data(keys, data)
   keys
 end 
 def find_cool(cool_hash)
+<<<<<<< HEAD
   arr = []
   cool_hash.each do |hash|
     hash.each do |k, v|
@@ -65,3 +66,9 @@ def organize_schools(schools)
   end 
   organized_hash
 end 
+=======
+  "#{cool_hash}"
+end 
+
+  
+>>>>>>> 8ed659eaac32d4f35444859676cae874d6858a7d
